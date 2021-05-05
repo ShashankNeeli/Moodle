@@ -1,0 +1,9 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+        "parameters": {
+                "sshPublicKey":                { "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC+gk92xn+7rRfxjLwNm5xHZSL6NZvayDtuXBT/A0F49lyqknoZauqDkGX8D52X4EH+ZPmeALUlSldsu1d5Kx2tz58nHhPTNrFXKkQopsHGYx+v2g94wJURWxxp1dt5U9LWiVchsRDvboOgLIJzMQvZVuE27O2HP6Aufn9vNkTJss4ZjsrxGWWJaTtQq9SCvV947XC8JbO9PZ5Q+4/C0A1CB9mRJOCuW/oMP7U4scv6eNDF0nIW2BwW0PBFhz2PXYKwynQfnVtfrdRlXpAKlCOpZXiPromGiWBxQPZjubK7uW7aR2X66g+GxQfq/CncIjXMtJb3LjONIWq3CtWRM8yF4+ZbOwbgY0mtikvHxKGOlIQocoOGwYD4wtqv6QaOnIfji6mgi98i0B0OtNCVg575MFOhfUttVTlp2qTWVM9UvTFQSKh57tY1NVkJThCVrqOPcFglRR3xcVPLc56ZV9v5R247Zn7Rk0rY7l68yuafBUsOqS8c2BOgWUZCQ5GNkik= shash@DESKTOP-6SPE8MO" },
+                "fileServerDiskCount":         { "value": 2 },
+                "fileServerDiskSize":          { "value": 32 }
+        }
+}
