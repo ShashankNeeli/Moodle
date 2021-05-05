@@ -1,0 +1,50 @@
+{
+    "controllerInstanceIP": {
+      "type": "String",
+      "value": "40.71.114.4"
+    },
+    "databaseAdminPassword": {
+      "type": "String",
+      "value": "3t4qqy7mjiw*7PFIWB"
+    },
+    "databaseAdminUsername": {
+      "type": "String",
+      "value": "dbadmin@mysql-t4qqy7"
+    },
+    "databaseDNS": {
+      "type": "String",
+      "value": "mysql-t4qqy7.mysql.database.azure.com"
+    },
+    "firstFrontendVmIP": {
+      "type": "String",
+      "value": "172.31.0.5"
+    },
+    "loadBalancerDNS": {
+      "type": "String",
+      "value": "lb-t4qqy7.eastus.cloudapp.azure.com"
+    },
+    "loadBalancerSku": {
+      "type": "String",
+      "value": "Standard"
+    },
+    "loadBalancerTier": {
+      "type": "String",
+      "value": "Regional"
+    },
+    "moodleAdminPassword": {
+      "type": "String",
+      "value": "XLqy7mjiw,1*8"
+    },
+    "moodleDbPassword": {
+      "type": "String",
+      "value": "9#36^qqy7mjiwERCQ"
+    },
+    "moodleDbUsername": {
+      "type": "String",
+      "value": "moodle@mysql-t4qqy7"
+    },
+    "siteURL": {
+      "type": "String",
+      "value": "lb-t4qqy7.eastus.cloudapp.azure.com"
+    }
+  }

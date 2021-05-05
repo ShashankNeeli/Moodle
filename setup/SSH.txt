@@ -1,0 +1,15 @@
+ssh -i moodle_id_rsa azureadmin@$MOODLE_CONTROLLER_INSTANCE_IP 'mysqldump -h $mysqlIP -u ${moodleDbUsername} -p'${moodleDbPassword}' --databases ${moodledbname} | gzip > /moodle/db-backup.sql.gz'
+
+$ ssh -i moodle_id_rsa azureadmin@40.71.114.4
+
+moodledbname=moodle
+echo $moodledbname
+
+moodleDbUsername="moodle@mysql-t4qqy7"
+echo $moodleDbUsername
+
+moodleDbPassword="9#36^qqy7mjiwERCQ"
+echo $moodleDbPassword
+
+
+ssh -i moodle_id_rsa azureadmin@$MOODLE_CONTROLLER_INSTANCE_IP 'mysqldump -h $mysqlIP -u 'dbadmin@mysql-t4qqy7' -p'3t4qqy7mjiw*7PFIWB' --databases 'moodle' | gzip > /moodle/db-backup.sql.gz'
